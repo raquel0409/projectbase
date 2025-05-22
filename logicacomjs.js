@@ -18,8 +18,9 @@ let herança= 2;
 let divisaodaherança= irmaos/herança
 console.log("A divisão da herança é: " + divisaodaherança+"R$")
 console.log("--------------------------")*/
-let mensal=6000;
-let trabalhados= 12;
-let meses=12
-let decimo= mensal/trabalhados*meses
-console.log("Raquel o seu 13° é; "+decimo+ "R$ "+ "Parabéns!")
+let salario= Number(prompt("Digite seu sálario:"))
+let mesestrabalhados= Number(prompt("Digite seus meses trabalhados:"))
+let decimo= salario/12*mesestrabalhados
+console.log(decimo)
+/*let x =Number(prompt ("Digite um número"))
+console.log(x)*/
