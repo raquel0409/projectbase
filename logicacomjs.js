@@ -17,10 +17,49 @@ let irmaos= 10;
 let herança= 2;
 let divisaodaherança= irmaos/herança
 console.log("A divisão da herança é: " + divisaodaherança+"R$")
-console.log("--------------------------")*/
+console.log("--------------------------")
 let salario= Number(prompt("Digite seu sálario:"))
 let mesestrabalhados= Number(prompt("Digite seus meses trabalhados:"))
 let decimo= salario/12*mesestrabalhados
 console.log(decimo)
-/*let x =Number(prompt ("Digite um número"))
-console.log(x)*/
+let x =Number(prompt ("Digite um número"))
+console.log(x)
+let salario = Number(prompt ("Digite seu sálario"))
+if (salario<500){
+    salario = (15/100*salario)+salario
+alert("Seu novo sálario é " + salario)}
+else if (salario>=500 && salario<=1000){
+    salario= (10/100*salario)+salario
+    alert ("Seu novo sálario é:"+ salario)
+}
+else{
+    salario(5/100*salario)+salario
+    alert ("Seu novo salário é:" +salario)
+}
+let idade = Number(prompt("Digite sua idade"))
+if (idade<12){
+    alert("Seu conteúdo é Infantil")
+}
+else if (idade>=12 && idade<=17){
+    alert("Seu conteúdo é Teen")
+}
+else if (idade>=18 && idade<=60){
+    alert("Seu conteúdo é adulto")
+}
+else{
+    alert("Seu conteúdo é Sênior")
+}*/
+let pontuacao = Number(prompt("Digite sua Pontuação"))
+if (pountuacao<=1000){
+    alert("Seu nivel é novato e o seu bônus é de 100XP")
+}
+else if (pontuacao>=1001 && pontuacao<=5000){
+    alert("Seu nivel é aprendiz e o seu bônus é de 500XP")
+}
+else if (pontuacao>=5001 && pontuacao<=10000){
+    alert("Seu nível é Expert e o seu bõnus é de 1000PX")
+}
+else{
+    alert("Seu nível é mestre e o seu bônus é de 2000XP")
+}
+
