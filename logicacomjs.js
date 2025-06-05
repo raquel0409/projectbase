@@ -95,8 +95,20 @@ else{
         alert("O valor final do seu plano é de R$ "+(planoultra+telasmaisdequatro))
     } else {("O valor final do seu plano é de R$ "+(planoultra))
     }
-}*/
-
+}
+let daysOfWeek = ["caio" , "Samuel"]; 
+console.log(daysOfWeek[1])
+console.log(daysOfWeek.length)
+let listdiver = ["Caio" ,1,2.5, "Escola" ,false]
+console.log(listdiver[3])
+let nomedoaluno = prompt("Digite o nome do novo aluno:")
+daysOfWeek.push(nomedoaluno)
+daysOfWeek.unshift("MIguel")
+daysOfWeek.pop()
+daysOfWeek.shift()
+daysOfWeek.sort()
+alert("atualmente os alunos da escola são"+daysOfWeek)
+alert(daysOfWeek.indexpf("Miiguel"))*/
 
 
 
