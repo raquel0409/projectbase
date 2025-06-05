@@ -48,7 +48,7 @@ else if (idade>=18 && idade<=60){
 }
 else{
     alert("Seu conteúdo é Sênior")
-}*/
+}
 let pontuacao = Number(prompt("Digite sua Pontuação"))
 if (pountuacao<=1000){
     alert("Seu nivel é novato e o seu bônus é de 100XP")
@@ -62,4 +62,44 @@ else if (pontuacao>=5001 && pontuacao<=10000){
 else{
     alert("Seu nível é mestre e o seu bônus é de 2000XP")
 }
+
+let planobasico= 25;
+let planopremium= 40;
+let planoultra= 60;
+let telasdetresaquatro= 5;
+let telasmaisdequatro= 7.50;
+
+let tipodeassinatura= prompt("Digite o tipo de assinatura que você deseja.")
+let quantidadedetelas= prompt("Digite a quantidade de telas que você deseja.")
+
+if (tipodeassinatura == "básico"){
+    if (quantidadedetelas>=3 && quantidadedetelas<=4){
+        alert("O valor final do seu plano é de R$ "+(planobasico+telasdetresaquatro))
+    } else if (quantidadedetelas>=4){
+        alert("O valor final do seu plano é de R$ "+(planobasico+telasmaisdequatro))
+    } else ("O valor final do seu plano é de R$ "+(planobasico))
+
+}
+else if(tipodeassinatura == "Premium"){
+    if (quantidadedetelas>=3 && quantidadedetelas<=4){
+        alert("O valor final do seu plano é de R$ "+(planopremium+telasdetresaquatro))
+    } else if (quantidadedetelas>=4){
+        alert("O valor final do seu plano é de R$ "+(planopremium+telasmaisdequatro))
+    } else ("O valor final do seu plano é de R$ "+(planopremium))
+
+} 
+else{
+    if (quantidadedetelas>=3 && quantidadedetelas<=4){
+        alert("O valor final do seu plano é de R$ "+(planoultra+telasdetresaquatro))
+    } else if (quantidadedetelas>=4){
+        alert("O valor final do seu plano é de R$ "+(planoultra+telasmaisdequatro))
+    } else {("O valor final do seu plano é de R$ "+(planoultra))
+    }
+}*/
+
+
+
+
+
+
 
